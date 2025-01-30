@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #28CA97,#344B44);
+    padding: 10px 0px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav > a{
+    color: white;
+}
+
+.preto{
+    color: #0b2e01c2;
+}
+
+#cabecalho{
+    font-size: 35px;
+    color: white;
+    margin: auto;
+    padding-top: 30px;
+}
+
+body{
+    background-color: #3f7564a9;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+
+
+.espaco {
+    padding: 15px 0px;
+}
+
+header > nav {
+    text-align: justify;
+}
+
+main{
+    margin: auto;
+    width: 800px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.308);
+    border-radius: 10px;
+}
+
+.verde{
+    background-color: #7992722d;
+    color: #0b2e01c2;
+}
+a{
+    color: #0B2E01;
+}
+
+.whitegreen{
+    background-color: #0b2e0169;
+    color: white;
+}
+
+.fim{
+    background-color: #0b2e0196;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px; /* Ajuste conforme necessário */
+    margin: 20px auto;
+}
+
+ul {
+    list-style: none; /* Remove os marcadores */
+    padding: 0;
+}
+
+li::before {
+    content: "✔️"; /* Adiciona um ícone antes dos itens */
+    margin-right: 8px;
+}
+
+.android-center {
+    display: block;
+    margin: 20px auto;
+}
